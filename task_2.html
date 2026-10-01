@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS_Task</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .container {
+                display:flex;
+                height: 400px;
+                width: 100%;
+                padding:8px;
+                gap: 8px;
+                background: white;
+            }
+            .left,
+            .middle ,
+            .right {
+                display: flex;
+                flex-direction: column;
+                gap:8px;
+            }
+            .left{
+                flex:1;
+            }
+            .right{
+                flex:1;
+            }
+            .middle{
+                flex:0.8;
+            }
+            .box-1{
+                background-color:aqua;
+                flex:0.6;
+            }
+            .box-2{
+                background-color: aquamarine;
+                flex:1;
+            }
+            .box-3{
+                background-color: blue;
+                flex:0.8;
+            }
+            .box-4{
+                background-color: blueviolet;
+                flex:0.4;
+            }
+            .box-5{
+                background-color: chartreuse;
+                flex:1;
+            }
+            .box-6{
+                background-color: darkgoldenrod;
+                flex:1;
+            }
+            .box-7{
+                background-color:cornflowerblue;
+                flex:1;
+            }
+            .box-8{
+                background-color: darkkhaki;
+                flex:0.6;
+            }
+            .box-9{
+                background-color:darkgreen;
+                flex:0.8;
+            }
+            .box-10{
+                background-color:deeppink;
+                flex:0.4
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <div class="box box-1"> </div>
+                <div class="box box-2"> </div>
+                <div class="box box-3"> </div>
+                <div class="box box-4"> </div>
+            </div>
+            <div class="middle">
+                <div class="box box-5"> </div>
+                <div class="box box-6"> </div>
+                <div class="box box-7"> </div>
+            </div>
+            <div class="right">
+                <div class="box box-8"> </div>
+                <div class="box box-9"> </div>
+                <div class="box box-10"> </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css_task</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            flex-direction:column;
+            height:600px;
+            width:410px;
+            gap:10px;
+            padding:10px;
+        }
+
+        .one{
+            display:flex;
+            flex:0.7;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color:skyblue;
+        }
+
+        .two{
+            display:flex;
+            flex-direction: row;
+            gap:3px;
+            flex:3;
+        }
+        .col-1{
+            display:flex;
+            flex-direction: column;
+            flex:2;
+            gap:3px;
+        }
+        .col-2{
+            display:flex;
+            flex-direction:column;
+            flex:3;
+            gap:3px;
+        }
+
+        .A{
+            display:flex;
+            background-color:lavender;
+            flex:3;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .B{
+            display:flex;
+            background-color:olive;
+            flex:4;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .C{
+            display:flex;
+            background-color:goldenrod;
+            flex:2.2;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .D{
+            display:flex;
+            background-color:grey;
+            flex:1;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .three{
+            display: flex;
+            flex-direction:row;
+            flex:1;
+            justify-content: center;
+            align-items:center;
+            text-align: center;
+            gap:3px;
+        }
+
+        .box{
+            padding:10px;
+        }
+
+        .E{
+            flex:2.2;
+            background-color:green;
+        }
+        .F{
+            flex:1;
+            background-color:pink
+        }
+        .four{
+            display: flex;
+            flex:0.7;
+            justify-content: center;
+            align-items:center;
+            text-align: center;
+            background-color:orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            <h5>Header</h5>      
+        </div>
+        <div class="two">
+            <div class="col-1">
+                <div class="A"><h5>Hero</h5></div>
+                <div class="B"><h5>Side Bar</h5></div>
+            </div>
+            <div class="col-2">
+                <div class="C"><h5>Main Content</h5></div>
+                <div class="D"><h5>Extra Content</h5></div>
+            </div>
+        </div>
+        <div class="three">
+            <div class="box E"><h5>Related Images</h5></div>
+            <div class="box F"><h5>Related Posts</h5></div>
+        </div>
+        <div class="four">
+            <h5>Footer</h5>
+        </div>
+    </div>
+</body>
+</html>
